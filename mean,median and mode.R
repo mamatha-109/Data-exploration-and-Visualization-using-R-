@@ -1,6 +1,0 @@
-myData=read.csv("CardioGoodFitness.csv",stringsAsFactors = F)
-print(head(myData))
-mean=mean(myData$Age)
-print(mean)
-median=median(myData$Age)
-print(median)
